@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut blanditiis consequuntur dolor eum excepturi exercitationem facilis id ipsam necessitatibus obcaecati omnis pariatur quia quibusdam reiciendis rem, repellat sit voluptatem?</p>
+        <button class="btn btn-warning">To page About</button>
+
+        {% for i in values %}
+            <p>{{ i }}</p>
+        {% endfor %}
+        {% for i in obj %}
+            <p>{{ i }}</p>
+        {% endfor %}
+
+        {{ device }}
+    </div>
+{% endblock %}

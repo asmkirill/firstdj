@@ -20,6 +20,9 @@ class Migration(migrations.Migration):
                 ('full_text', models.TextField(verbose_name='Article')),
                 ('date', models.DateTimeField(verbose_name='Date of publishing')),
             ],
+
+
+            w
             options={
                 'verbose_name': 'Article',
                 'verbose_name_plural': 'Articles',

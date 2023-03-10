@@ -9,7 +9,7 @@ class ArticleForm(ModelForm):
         widgets = {
             'title': TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Name of title',
+                'placeholder': 'Name of title'
             }),
 
             'announcement': TextInput(attrs={
@@ -22,7 +22,7 @@ class ArticleForm(ModelForm):
                 'placeholder': 'Article'
             }),
 
-            'date': DateTimeInput (attrs={
+            'date': DateTimeInput(attrs={
                 'class': 'form-control',
                 'placeholder': 'Date of publishing'
             })

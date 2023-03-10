@@ -3,7 +3,6 @@ from django.shortcuts import render
 def index(request):
     data = {
         'title': 'Main page',
-        'values': ['Hello', '123', 'Lista'],
         'obj': {
             'car': "BMW",
             'pet': 'cat',
